@@ -1,25 +1,25 @@
-# Tech stack
+## Tech stack
 
-## Language
+### Language
 
 - TypeScript
 
-## Framework
+### Framework
 
 - Next.js
 
-## Styling
+### UI
 
 - Tailwind CSS
 - Shadcn UI
 
-## Database
+### Database
 
 - SQLite
 - libsql driver
 - Drizzle ORM
 
-## Tooling
+### Tooling
 
 - ESLint
 - Prettier
