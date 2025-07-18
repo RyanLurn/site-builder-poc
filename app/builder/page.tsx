@@ -1,7 +1,7 @@
-import BuilderCanvas from "@/features/builder/canvas/components/main";
-import BuilderLeftSidebar from "@/features/builder/left-sidebar/components/main";
-import BuilderRightSidebar from "@/features/builder/right-sidebar/components/main";
-import BuilderToolbar from "@/features/builder/toolbar/components/main";
+import BuilderCanvas from "@/features/builder/components/canvas";
+import BuilderLeftSidebar from "@/features/builder/components/left-sidebar";
+import BuilderRightSidebar from "@/features/builder/components/right-sidebar";
+import BuilderToolbar from "@/features/builder/components/toolbar";
 import { Separator } from "@/components/ui/separator";
 
 export default function BuilderPage() {
