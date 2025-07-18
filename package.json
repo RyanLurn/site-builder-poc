@@ -1,5 +1,5 @@
 {
-  "name": "app-template-2",
+  "name": "site-builder-poc",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
     "@libsql/client": "^0.15.10",
     "@next/env": "^15.4.1",
     "@radix-ui/react-dropdown-menu": "^2.1.15",
+    "@radix-ui/react-separator": "^1.1.7",
     "@radix-ui/react-slot": "^1.2.3",
     "@t3-oss/env-nextjs": "^0.13.8",
     "class-variance-authority": "^0.7.1",

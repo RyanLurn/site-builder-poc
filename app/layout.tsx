@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import { ModeToggle } from "@/components/mode-toggle";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "App Template 2",
-  description: "App Template 2"
+  title: "Site Builder",
+  description: "Site Builder PoC"
 };
 
 export default function RootLayout({
@@ -35,10 +34,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="fixed top-2 right-2">
-            <ModeToggle />
-          </div>
-          {children}
+          <div className="h-screen w-screen">{children}</div>
         </ThemeProvider>
       </body>
     </html>
