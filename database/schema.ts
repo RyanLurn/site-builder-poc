@@ -8,4 +8,11 @@ const usersTable = sqliteTable("users_table", {
   email: text().notNull().unique()
 });
 
-export { usersTable };
+const pagesTable = sqliteTable("pages_table", {
+  id: int().primaryKey({ autoIncrement: true }),
+  path: text().notNull().unique(),
+  title: text().notNull(),
+  description: text().notNull()
+});
+
+export { pagesTable, usersTable };

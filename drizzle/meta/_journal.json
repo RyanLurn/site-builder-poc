@@ -15,6 +15,13 @@
       "when": 1752758250759,
       "tag": "0001_curious_jane_foster",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1752802435957,
+      "tag": "0002_ambitious_wallflower",
+      "breakpoints": true
     }
   ]
 }
