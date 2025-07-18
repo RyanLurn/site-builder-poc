@@ -1,5 +1,5 @@
 import BuilderCanvas from "@/features/builder/components/canvas";
-import BuilderLeftSidebar from "@/features/builder/components/left-sidebar";
+import LeftSidebar from "@/features/builder/components/left-sidebar";
 import BuilderRightSidebar from "@/features/builder/components/right-sidebar";
 import BuilderToolbar from "@/features/builder/components/toolbar";
 import { Separator } from "@/components/ui/separator";
@@ -10,7 +10,7 @@ export default function BuilderPage() {
       <BuilderToolbar />
       <Separator />
       <div className="flex flex-1">
-        <BuilderLeftSidebar />
+        <LeftSidebar />
         <BuilderCanvas />
         <BuilderRightSidebar />
       </div>
