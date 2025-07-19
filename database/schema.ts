@@ -12,7 +12,8 @@ const pagesTable = sqliteTable("pages_table", {
   id: int().primaryKey({ autoIncrement: true }),
   path: text().notNull().unique(),
   title: text().notNull(),
-  description: text().notNull()
+  description: text().notNull(),
+  status: text().notNull().default("draft")
 });
 
 export { pagesTable, usersTable };

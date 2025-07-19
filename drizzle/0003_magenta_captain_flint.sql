@@ -1,0 +1,1 @@
+ALTER TABLE `pages_table` ADD `status` text DEFAULT 'draft' NOT NULL;
