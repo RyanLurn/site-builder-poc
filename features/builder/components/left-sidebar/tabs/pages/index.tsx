@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import PagesList from "@/features/builder/components/left-sidebar/tabs/pages/pages-list";
 import { Plus } from "lucide-react";
 
 export default function PagesTab() {
@@ -10,6 +11,7 @@ export default function PagesTab() {
           <Plus />
         </Button>
       </div>
+      <PagesList />
     </div>
   );
 }

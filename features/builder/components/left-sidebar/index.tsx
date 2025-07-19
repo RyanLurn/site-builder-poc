@@ -17,7 +17,7 @@ export default function LeftSidebar() {
   }
 
   return (
-    <div className="flex h-full w-3xs flex-col bg-sidebar p-3">
+    <div className="flex h-full w-2xs flex-col bg-sidebar p-3">
       <Header activeTab={activeTab} switchTab={switchTab} />
       <Separator className="my-3" />
       <div className="w-full flex-1 overflow-y-auto">
