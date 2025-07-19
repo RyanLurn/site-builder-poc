@@ -47,9 +47,7 @@
       "indexes": {
         "pages_table_path_unique": {
           "name": "pages_table_path_unique",
-          "columns": [
-            "path"
-          ],
+          "columns": ["path"],
           "isUnique": true
         }
       },
@@ -100,9 +98,7 @@
       "indexes": {
         "users_table_email_unique": {
           "name": "users_table_email_unique",
-          "columns": [
-            "email"
-          ],
+          "columns": ["email"],
           "isUnique": true
         }
       },
